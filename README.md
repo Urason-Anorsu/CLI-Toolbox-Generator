@@ -4,6 +4,8 @@
 CLIs.** Generate ready-to-use command-line applications for Python in seconds using
 the fully template-driven generator with zero boilerplate.
 
+Looking for an example of this being used? Check the Documents/ !
+
 ------------------------------------------------------------------------
 
 ## 🚀 Features
@@ -28,7 +30,7 @@ the fully template-driven generator with zero boilerplate.
     -   data conversion assistance
     -   formatting add-ons
     -   screen/spacing helpers
-    -   layout utilities\
+    -   layout utilities
 
         Simply toggle them during generator setup.
 
@@ -41,7 +43,7 @@ the fully template-driven generator with zero boilerplate.
     -   Nested menu trees
     -   Single & multi-command stubs
     -   Navigation style
-    -   Optional features to include\
+    -   Optional features to include
 
         These settings fully shape the output directory.
 
@@ -51,18 +53,18 @@ the fully template-driven generator with zero boilerplate.
     -   menu directories
     -   menu classes
     -   navigation logic
-    -   stubs for each menu option\
+    -   stubs for each menu option
 
         The stubs act as placeholders where you add your
         project-specific code either directly or as a method call.
 
 -   **Zero External Dependencies**\
-    No external libraries required.\
+    No external libraries required.
     
     The generated projects run on standard Python installations.
 
 -   **Fully Ready on Download**\
-    This repository is complete and usable as-is.\
+    This repository is complete and usable as-is.
     
     No pre-configuration, environment customization, or template
     authoring required.
@@ -114,7 +116,7 @@ Eventually I realized:
 > "I'm rebuilding the same CLI scaffolding over and over again. Surely I can just
 > automate this..."
 
-This project is the result:\
+This project is the result:
 
 A **modular, template-first generator** that creates a fully structured
 CLI project with:
@@ -277,12 +279,12 @@ Regardless, happy building! I hope this saves you some time.
 ## 🗺️ Road-Map
 
 While I don't think I'll make large changes to this project, here is a basic
-road-map of things I'd love to add:\
+road-map of things I'd love to add:
 
--   dynamic terminal sizing for compatibility\
--   more customization options for navigation & formatting\
--   pre-built templates for different project types\
--   better dynamic loading for less bloat (specifically with navigation features)\
+-   dynamic terminal sizing for compatibility
+-   more customization options for navigation & formatting
+-   pre-built templates for different project types
+-   better dynamic loading for less bloat (specifically with navigation features)
 -   language generation selection (Java, Lua, etc.)
 -   proper pip-integration for easy one-offs 
 -   user selection of programming paradigm preference
